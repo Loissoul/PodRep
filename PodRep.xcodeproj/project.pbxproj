@@ -13,6 +13,7 @@
 		3B01ED2A1CD6676C00A4CB58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B01ED281CD6676C00A4CB58 /* Main.storyboard */; };
 		3B01ED2C1CD6676C00A4CB58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B01ED2B1CD6676C00A4CB58 /* Assets.xcassets */; };
 		3B01ED2F1CD6676C00A4CB58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B01ED2D1CD6676C00A4CB58 /* LaunchScreen.storyboard */; };
+		3B01ED381CD66B9F00A4CB58 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B01ED371CD66B9F00A4CB58 /* CustomView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		3B01ED2B1CD6676C00A4CB58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B01ED2E1CD6676C00A4CB58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B01ED301CD6676C00A4CB58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B01ED361CD66B9F00A4CB58 /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		3B01ED371CD66B9F00A4CB58 /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		3B01ED1E1CD6676C00A4CB58 /* PodRep */ = {
 			isa = PBXGroup;
 			children = (
+				3B01ED361CD66B9F00A4CB58 /* CustomView.h */,
+				3B01ED371CD66B9F00A4CB58 /* CustomView.m */,
 				3B01ED221CD6676C00A4CB58 /* AppDelegate.h */,
 				3B01ED231CD6676C00A4CB58 /* AppDelegate.m */,
 				3B01ED251CD6676C00A4CB58 /* ViewController.h */,
@@ -150,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B01ED271CD6676C00A4CB58 /* ViewController.m in Sources */,
+				3B01ED381CD66B9F00A4CB58 /* CustomView.m in Sources */,
 				3B01ED241CD6676C00A4CB58 /* AppDelegate.m in Sources */,
 				3B01ED211CD6676C00A4CB58 /* main.m in Sources */,
 			);
