@@ -14,8 +14,15 @@ IB_DESIGNABLE
 IBInspectable
 @property (nonatomic, assign) CGFloat cornerRadios;
 
+
+
+
+
+
 IBInspectable
 @property (nonatomic, strong) UIColor *layerCorlor;
+
+
 
 
 
